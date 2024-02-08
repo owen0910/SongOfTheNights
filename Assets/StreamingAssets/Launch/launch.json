@@ -1,0 +1,44 @@
+{
+    "AssetArray": [
+        {
+            "asset_path": "Assets/GAssets/Launch/123.jpg",
+            "bundle_name": "gassets_launch",
+            "dependencies": []
+        },
+        {
+            "asset_path": "Assets/GAssets/Launch/PizzaCat.prefab",
+            "bundle_name": "gassets_launch",
+            "dependencies": []
+        },
+        {
+            "asset_path": "Assets/GAssets/Launch/Sphere.prefab",
+            "bundle_name": "gassets_launch",
+            "dependencies": [
+                "gassets_launch_mat"
+            ]
+        },
+        {
+            "asset_path": "Assets/GAssets/Launch/Mat/TestMaterial.mat",
+            "bundle_name": "gassets_launch_mat",
+            "dependencies": []
+        }
+    ],
+    "BundleArray": {
+        "gassets_launch": {
+            "bundle_name": "gassets_launch",
+            "crc": "76c80d13",
+            "assets": [
+                "Assets/GAssets/Launch/123.jpg",
+                "Assets/GAssets/Launch/PizzaCat.prefab",
+                "Assets/GAssets/Launch/Sphere.prefab"
+            ]
+        },
+        "gassets_launch_mat": {
+            "bundle_name": "gassets_launch_mat",
+            "crc": "5e8af1de",
+            "assets": [
+                "Assets/GAssets/Launch/Mat/TestMaterial.mat"
+            ]
+        }
+    }
+}
